@@ -42,7 +42,7 @@ Data Memory Initialization: The memory_init.mem file contains sample data for te
 
 ## How to Use
 ### Generate Machine Code:
-1. Run the provided assembly files (###*testcase1.asm and testcase2.asm* ) in the Venus simulator.
+1. Run the provided assembly files (**testcase1.asm and testcase2.asm** ) in the Venus simulator.
 2. Generate the machine code and paste it into the instruction memory file (InstMem_Data.mem).
 ### Run Simulation:
 1. Simulate the design in Vivado.
