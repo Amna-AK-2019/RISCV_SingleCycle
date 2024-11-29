@@ -51,26 +51,26 @@ Data Memory Initialization: The memory_init.mem file contains sample data for te
 All RTL modules are present in one file.
 
 top_module (RISCV_SingleCycle) ---> all the conenctions are made here <br>
-       |___ program_counter
-       |___PC_adder
-       |___muxPC
-       |___Instruction_Memory
-       |___instruction_decoder
-       |___Register_File
-       |___Immediate_Gen
-       |___mux_control1
-       |___mux_control2
-       |___alu_control
-       |___control_unit
-       |___alu
-       |___Data_Memory
-       |___Mux_control_DMEM
-       |___branch_comparator
+       |___ program_counter <br>
+       |___PC_adder <br>
+       |___muxPC <br>
+       |___Instruction_Memory <br>
+       |___instruction_decoder <br>
+       |___Register_File <br>
+       |___Immediate_Gen <br>
+       |___mux_control1 <br>
+       |___mux_control2 <br>
+       |___alu_control <br>
+       |___control_unit <br>
+       |___alu <br>
+       |___Data_Memory <br>
+       |___Mux_control_DMEM <br>
+       |___branch_comparator <br>
 
-Memory File
-       |___InstMem_Data.mem
-       |___RegFile_Data.mem
-       |___memory_init.mem
+Memory File <br>
+       |___InstMem_Data.mem <br> 
+       |___RegFile_Data.mem <br>
+       |___memory_init.mem <br>
 
-TestBench File:
-       |___tb_top_module
+TestBench File: <br>
+       |___tb_top_module <br>
