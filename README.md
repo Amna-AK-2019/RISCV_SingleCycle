@@ -50,8 +50,8 @@ Data Memory Initialization: The memory_init.mem file contains sample data for te
 
 All RTL modules are present in one file.
 
-top_module (RISCV_SingleCycle) ---> all the conenctions are made here
-:-       |___ program_counter
+top_module (RISCV_SingleCycle) ---> all the conenctions are made here <br>
+       |___ program_counter
        |___PC_adder
        |___muxPC
        |___Instruction_Memory
